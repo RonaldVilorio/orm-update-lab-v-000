@@ -40,7 +40,7 @@ class Student
     end
   end
   def self.update
-    sql = "UPDATE students SET name = ?, album = ? WHERE id = ?"
+    sql = "UPDATE students SET name = ?, grade = ? WHERE id = ?"
 
   end
 
