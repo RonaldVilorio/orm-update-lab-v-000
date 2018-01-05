@@ -32,7 +32,7 @@ class Student
     sql = <<-SQL
       INSERT INTO students (name,grade,id) VALUES (?,?,?)
     SQL
-    DB[:conn].execute(sql,@name,@grade).map{|row| }
+    DB[:conn].execute(sql,@name,@grade)
 
   end
 
