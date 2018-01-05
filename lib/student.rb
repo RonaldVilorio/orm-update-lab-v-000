@@ -45,7 +45,7 @@ class Student
   end
 
   def self.create(name=nil,grade=nil)
-    self.new()
+    self.new(name,grade)
 
   end
 
